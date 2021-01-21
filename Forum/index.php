@@ -1,3 +1,7 @@
+<?php include 'php/connect.php';
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,15 +13,15 @@
 
     <center>
         <h1>WELCOME</h1>
-        <h2>SVCC FORUM HOMEPAGE</h2>
+        <h1>SVCC FORUM HOMEPAGE</h1>
     </center>
-
     <ul>
-        <li>Home</li>
-        <li>Disscusion</li>
-        <li>Profile</li>
-        <li>Logout</li>
+        <li><a href="#"><?php echo strtoupper($_SESSION['name']); ?></a></li>
+        <li><a href="#">Home</li>
+        <li><a href="#">Disscusion</a></li>
+        <li><a href="#">Logout</a></li>
     </ul>
+  
 
 
 </body>
