@@ -9,7 +9,15 @@
 
     <center>
         <h1>WELCOME</h1>
+        <h2>SVCC FORUM HOMEPAGE</h2>
     </center>
+
+    <ul>
+        <li>Home</li>
+        <li>Disscusion</li>
+        <li>Profile</li>
+        <li>Logout</li>
+    </ul>
 
 
 </body>
