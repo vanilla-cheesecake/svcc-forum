@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SVCC</title>
+    <title>Document</title>
 </head>
 <body>
-<center><h1>WELCOME TO SVCC FORUM SITE</h1></center>
+    
+</body>
+</html>
