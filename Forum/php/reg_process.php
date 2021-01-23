@@ -42,7 +42,7 @@ if(isset($_POST['register'])){
         // $count = $select->num_rows;
         // $row = $select->fetch_assoc();
 
-        $_SESSION['firstname'] = $firstname;
+        $_SESSION['name'] = $firstname;
         $_SESSION['lastname'] = $lastname;
         $_SESSION['email'] = $email;
         $_SESSION['username'] = $username;
@@ -70,7 +70,7 @@ if(isset($_POST['submit'])){
         $count = $select->num_rows;
         $row = $select->fetch_assoc();
         if($count == 1){
-                // Storing username in session variable 
+                // Storing username in session   variable 
                 $_SESSION['name'] = $row['name'];
                 $_SESSION['lastname'] = $row['lastname'];
                 $_SESSION['email'] = $row['email'];
