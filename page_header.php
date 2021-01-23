@@ -20,7 +20,7 @@ if(empty($_SESSION['username'])){header('Location: login.php');}?>
     <?php endif; ?>
     </center>
     <ul>
-        <li><a href="index.php">Home</li>
+        <li><a href="main.php">Home</li>
         <li><a href="#">Disscusion</a></li>
         <li><a href="user_profile.php">My Profile</a></li>
         <li><a href="php/logout.php">Logout</a></li>

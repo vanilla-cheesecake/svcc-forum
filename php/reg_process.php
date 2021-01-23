@@ -49,7 +49,7 @@ if(isset($_POST['register'])){
         $_SESSION['password'] = $password;
         $_SESSION['success'] = "You are now logged in"; 
         // After successfull registration direct into the homepage
-        header('Location: index.php');
+        header('Location: main.php');
         }}
 }
 // LOGIN 
@@ -78,7 +78,7 @@ if(isset($_POST['submit'])){
                 $_SESSION['password'] = $row['password'];
                 $_SESSION['success'] = "You are now logged in";     
                 // REDIRECT INTO MAIN PAGE
-                header('Location: index.php');
+                header('Location: main.php');
         }else {array_push($errors, "The username or password is incorrect");}
  
 

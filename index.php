@@ -1,8 +1,18 @@
-<?php include 'page_header.php'; ?>
+<?php include 'php/reg_process.php'; 
+include 'login_header.php'; ?>
+<br><br><br>
 
-<h1>HOME</h1>
+<center>
+    <h1>Login</h1>
+        <form method="POST" action="index.php">
+            
+            <?php include('php/reg_errors.php'); // Display errors here ?>
+            <input type="text" name="login" placeholder="Username or Email"><br>
+            <input type="password" name="password" placeholder="Password"><br><br>
+            <input type="submit" name="submit" value="Login"><br><br>
+            <p>Not a member yet?<br><a href="register.php">Register here</a></p>
+        </form>
+</center>
 
 
 
-</body>
-</html>

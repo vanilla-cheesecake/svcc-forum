@@ -8,6 +8,6 @@ session_destroy();
 // unset($_SESSION['password']);
 // unset($_SESSION['success']);
 
-header('Location: ../login.php');
+header('Location: ../index.php');
 exit();
 ?>
