@@ -19,9 +19,33 @@ if(empty($_SESSION['username'])){header('Location: login.php');}?>
                 unset($_SESSION['success']); ?></strong>
     <?php endif; ?>
     </center>
-    <ul>
-        <li><a href="main.php">Home</li>
-        <li><a href="#">Disscusion</a></li>
-        <li><a href="user_profile.php">My Profile</a></li>
-        <li><a href="php/logout.php">Logout</a></li>
-    </ul>
+
+    <div id="navbar">
+        <a class="active" href="main.php">Home</a>
+        <a href="#">Discussion</a>
+        <a href="user_profile.php">My Profile</a>
+        <a href="php/logout.php">Logout</a>
+        <a href="#">About Us</a>
+      </div>
+
+
+   
+
+
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
+</body>
+</html>

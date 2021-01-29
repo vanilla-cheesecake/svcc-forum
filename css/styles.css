@@ -1,5 +1,47 @@
 body{
-    background-color: white;
+    background-color: #ffffff7a;
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Roboto',cursive;
+}
+/* STICY NAV STYLE*/
+#navbar {
+    overflow: hidden;
+    background-color: #009783;
+  }
+  
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+  
+#navbar a:hover {
+    background-color: #000000;
+    color: #fff;
+}
+  
+#navbar a.active {
+    background-color: #18554b;
+    color: #d2e9f5;
+}
+  
+.content {
+    padding: 16px;
+}
+  
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+.sticky + .content {
+    padding-top: 60px;
 }
 
-/* IF YOU READ THIS YOU'rE NOW GaY */
+  /* LLOYD IS GaY AND HE'S GAY-ISH */
