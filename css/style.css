@@ -1,0 +1,41 @@
+body{
+    font-family: 'Trebuchet MS', 
+    'Lucida Sans Unicode', 'Lucida Grande',
+     'Lucida Sans', Arial, sans-serif ;
+    
+}
+.navbar{
+  background-color: #4e1521;
+}
+.breadcrumb {
+    overflow: hidden;
+    background-color: #4e1521;
+  }
+  
+.breadcrumb a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+  
+.breadcrumb a:hover {
+    background-color: #292929;
+    color: #fff;
+    border-radius: 40%;
+}
+.category{
+    background-color: #4e1521;
+}
+.forum-col{
+    min-width: 256px;
+}
+.last-post-col {
+    min-width: 192px;
+}
+  /* LLOYD IS GaY AND HE'S GAY-ISH */
+  
