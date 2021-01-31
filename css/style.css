@@ -24,9 +24,9 @@ body{
 }
   
 .breadcrumb a:hover {
-    background-color: #292929;
+    background-color: #747474;
     color: #fff;
-    border-radius: 40%;
+    border-radius: 50%;
 }
 .category{
     background-color: #4e1521;

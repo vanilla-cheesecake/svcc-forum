@@ -31,7 +31,7 @@ if(empty($_SESSION['username'])){header('Location: login.php');}?>
       <!---Main Navbar-->
       <nav class="navbar navbar-dark">
           <div class="container">
-          <h1><a href="#" class="navbar-brand">SVCC FORUM HOMEPAGE</a></h1>
+          <h1><a href="main.php" class="navbar-brand">SVCC FORUM HOMEPAGE</a></h1>
           <form class="form-inline">
          <input type="text" class="form-control  mr-3 mb-2 mb-sm-0" placeholder="search">
          <button type="submit" class="btn btn-dark">Search</button>
@@ -350,7 +350,7 @@ if(empty($_SESSION['username'])){header('Location: login.php');}?>
 <footer class="small bg-info">
     <div class="container">
     <ul class="list-inline mb-0">
-        <li class="list-inline-item text-light">&copy; 2019 Company Name</li>
+    <li class="list-inline-item text-light">&copy; 2021 Gay Lloyrd Company</li>
         <li class="list-inline-item"><a href="#" class="text-light">Privacy Policy</a></li>
         </ul>
     </div>
