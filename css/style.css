@@ -181,6 +181,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(35,166,168,1) 100%);
     align-items: center;
     border: 1px solid #acacac;
 }
+
 .email input,
 .password input,
 .name input{
@@ -319,4 +320,39 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(35,166,168,1) 100%);
     .btns{
         width:80%;
     }
+}
+/*View Profile Modal*/
+
+.bg-modal{
+    width:100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.modal-content{
+    width: 500px;
+    height: 400px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+input{
+    width: 50%;
+    display: block;
+    margin: 2px auto;
+}
+.close{
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
 }
