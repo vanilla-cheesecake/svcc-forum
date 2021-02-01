@@ -46,11 +46,12 @@ if(empty($_SESSION['username'])){header('Location: login.php');}?>
       
       <a class="active" href="main.php">Home</a>
         <a href="#">Discussion</a>
-        <a href="user_profile.php">My Profile</a>
+        <a href="user_profile.php" >My Profile</a>
         <a href="#">About Us</a>
         <a href="php/logout.php">Logout</a>
         
           
+    
       </nav>
       <!---End of Breadcrumb Navbar-->
       <!---Category -->
