@@ -14,17 +14,16 @@ if(empty($_SESSION['username'])){
     unset($_SESSION['success']); ?></strong>
     <?php endif; ?>
 </center>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 <center>
 <div class="">
     <div id="myData" class="text-3xl font-light w-3/5 italic"></div>
 </div>
 </center>    
 <script src="util.js"></script>
+
+
 <?php 
+// include 'includes/content.php';
 // echo file_get_contents("html/footer.php"); // WEBPAGE FOOTER
 ?>

@@ -6,11 +6,12 @@ include "includes/header.php"; // WEBPAGE HEADER
 <div class=""></div>
 <div class="flex w-screen">
     <div class="pl-10  m-0">
-        <h1 class="text-5xl">WELCOME TO <span class="font-extrabold ">SVCC FORUM</span></h1>
+        <h1 class="text-5xl animate-bounce">WELCOME TO <span class="font-extrabold">SVCC FORUM</span></h1>
     
             <div class="pl-44 max-w-lg max-h-lg rounded fixed">
                 <!-- <img src="assets/wizard.jpeg"> -->
             </div>
+            <!-- QOUTES -->
             <div class="flex fixed py-16 ">
                 <div id="myData" class="text-3xl font-light w-3/5 italic"></div>
             </div>
@@ -19,6 +20,7 @@ include "includes/header.php"; // WEBPAGE HEADER
             <div id="myData2" class="m-0 text-2xl "></div>
             </div>
             <script src="util.js"></script>
+            
     </div>
         <!-- REGISTER CARD -->
 
@@ -33,7 +35,7 @@ include "includes/header.php"; // WEBPAGE HEADER
                         <input class="border-b-2 outline-none border-navleft px-3 py-2  text-lg font-normal" type="text" name="username" placeholder="Username"><br>
                         <input class="border-b-2 outline-none border-navleft px-3 py-2  text-lg font-normal" type="text" name="email" placeholder="Email"><br>   
                         <input class="border-b-2 outline-none border-navleft px-3 py-2  text-lg font-normal" type="password" name="password" placeholder="Password"><br><br>
-                        <button type="submit" name="register" value="Create an account" class="text-white px-3 py-2 rounded bg-navleft text-sm font-medium ">Create account</button>
+                        <button type="submit" name="register" value="Create an account" class="text-white px-3 py-2 rounded bg-navleft text-sm font-normal  ">Create account</button>
                     </form>
                 </div>
         </div>

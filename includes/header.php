@@ -6,15 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>FORUM</title>
     <link rel="stylesheet" href="css/styles.css">
-    <style>
-      body{
-        background-image: url("background.png");
-      }
-    </style>
-    
+
 </head>
-<body class="bg-purple-50   " background="background.png">
-<div class="bg-fixed" style="background-image: url('background.png')"></div>
+<body class="bg-purple-50">
+
 <!-- ----------------------------------------------------------------------- -->
 <!-- TAILWIND NAVBAR TANGINA -->
 <nav class="bg-gradient-to-r from-navleft via-navmid-100 to-navmid-100 p-2 mt-0 fixed w-full z-10 top-0">
