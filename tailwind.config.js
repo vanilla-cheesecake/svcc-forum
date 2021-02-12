@@ -7,8 +7,13 @@ module.exports = {
         navleft: '#000b0b',
         navmid: {
         100: '#096279',
-        200: '#00ffd1',}
-      }
+        200: '#00ffd1',
+        }
+      },
+      
+      backgroundImage: theme => ({
+        'hero-pattern': "assets/background.png",
+       })
     },
   },
   variants: {

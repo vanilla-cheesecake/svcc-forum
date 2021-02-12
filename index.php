@@ -7,22 +7,24 @@ if(empty($_SESSION['username'])){
     header('Location: login.php');
 }
 ?>
-
-<script src="js/util.js"></script>
-
 <center>
-
-<br>
-<br>
 <br>
     <?php if(isset($_SESSION['success'])): ?>
     <strong class="text-5xl"><?php echo "Welcome " . $_SESSION['name'] . "!"; 
     unset($_SESSION['success']); ?></strong>
     <?php endif; ?>
 </center>
-
-
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<center>
+<div class="">
+    <div id="myData" class="text-3xl font-light w-3/5 italic"></div>
+</div>
+</center>    
+<script src="util.js"></script>
 <?php 
 // echo file_get_contents("html/footer.php"); // WEBPAGE FOOTER
 ?>

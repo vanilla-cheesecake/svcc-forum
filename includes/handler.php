@@ -1,10 +1,10 @@
 <?php 
 // CONNECTION TO THE DATABASE
 session_start();
-$servername = "localhost";
-$username = "root";
-$password = "";
-$name = "user";
+$servername = "sql12.freesqldatabase.com";
+$username = "sql12392577";
+$password = "SkjaAlgKbi";
+$name = "sql12392577";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $name);
@@ -75,7 +75,7 @@ if(isset($_POST['submit'])){
     // STORE INPUT INTO PHP VARIABLE
     // $username = $_POST['username'];
     $password = $_POST['password'];
-    $login = $_REQUEST['login'];
+    $login = $_REQUEST['login']; 
      // Errors: forms need to be filled properly
     if(empty($login)){array_push($errors, "Username or Email is required");}
     if(empty($password)){array_push($errors, "Password is required");}
