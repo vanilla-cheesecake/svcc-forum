@@ -1,10 +1,10 @@
 <?php 
 // CONNECTION TO THE DATABASE
 session_start();
-$servername = "";
-$username = "";
-$password = "";
-$name = "";
+$servername = "remotemysql.com";
+$username = "mvrI7uBUVX";
+$password = "r9xhCyzAUG";
+$name = "mvrI7uBUVX";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $name);
